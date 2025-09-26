@@ -1,6 +1,7 @@
 import imagen from "./assets/bbb31fd0-a6c9-4440-9fbb-6ada1744cee4.jpg"
 
 
+
 export default function Encuadre()
 {return(
     <>

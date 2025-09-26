@@ -6,8 +6,11 @@ import { Link } from "react-router"
 export default function Opciones()
 {
   const botones=[
-    {texto:"ENCUADRE", 
+    {texto:"INICIO", 
       link:"/" 
+    },
+    {texto:"ENCUADRE", 
+      link:"/encuadre" 
     },
      {texto:"ACTIVIDADES", 
       link:"/actividades" 
@@ -24,7 +27,7 @@ const botonesMap= botones.map(opcion =>
   
   
   return(
-    <div className="flex justify-around items-center"> 
+    <div className="flex justify-around items-center mt-0"> 
       {botonesMap}  
 
     </div>    

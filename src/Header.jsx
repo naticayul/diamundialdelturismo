@@ -5,7 +5,7 @@ export default function Header()
 {return(
     <>
         <div className="flex top-0 ">
-            <img src={logo} className="h-35" />
+            <img src={logo} className="h-33" />
             <Opciones />
         </div>
     </>
