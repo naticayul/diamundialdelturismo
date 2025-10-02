@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Button = ({texto}) => {
   return (
     <StyledWrapper>
-      <button className="btn"> {texto}
+      <button className="btn p-4 text-xs"> {texto}
       </button>
     </StyledWrapper>
   );
@@ -14,10 +14,8 @@ const Button = ({texto}) => {
 const StyledWrapper = styled.div`
   .btn {
    background-color: #00BFA6;
-   padding: 14px 40px;
    color: #fff;
    text-transform: uppercase;
-   letter-spacing: 2px;
    cursor: pointer;
    border-radius: 10px;
    border: 2px dashed  #00BFA6;

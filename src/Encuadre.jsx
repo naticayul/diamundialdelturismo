@@ -16,7 +16,7 @@ export default function Encuadre()
         </div>
     </div>
 
-    <div className="h-200 bg-[url(./assets/pasarela.jpg)] bg-fixed bg-no-repeat bg-cover">
+    <div className="h-210 bg-[url(./assets/pasarela.jpg)] bg-fixed bg-no-repeat bg-cover">
         <div className="h-10"></div>
         <div className="bg-white p-1 opacity-75 mx-10 ">
             <h1 className=" text-black text-left m-5 text-2xl"> FUNDAMENTACIÓN </h1>
@@ -47,7 +47,7 @@ export default function Encuadre()
         </div>
     </div>
         
-    <div className="h-200 bg-[url(./assets/con-marca-2444-1024x683.jpg)] bg-fixed bg-no-repeat bg-cover">
+    <div className="h-160 bg-[url(./assets/con-marca-2444-1024x683.jpg)] bg-fixed bg-no-repeat bg-cover">
         <div className="h-10"></div>
         <div className="bg-white p-1 opacity-75 mx-10 ">
             <h1 className=" text-black text-left m-5 text-2xl"> OBJETIVOS </h1>

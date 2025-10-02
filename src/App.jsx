@@ -4,24 +4,24 @@ import Inicio from './Inicio.jsx'
 import Encuadre from './Encuadre.jsx'
 import Actividades from './Actividades.jsx'
 import Organizadores from './Organizadores.jsx'
-
-
+import Excursiones from './Excursiones.jsx'
 import Header from './Header'
-
+import Masonry from './Masonry';
 
 
 
 export default function App (){
+
   return (
     <>
-    
-      <Header />
 
+      <Header />
       <Routes>
         <Route path='/' element ={<Inicio />}/>
         <Route path='/encuadre' element ={<Encuadre />}/>
         <Route path='/actividades' element ={<Actividades />}/>
         <Route path='/organizadores' element ={<Organizadores />}/>
+        <Route path='/excursiones' element ={<Excursiones />}/>
       </Routes>
     </>
   )
