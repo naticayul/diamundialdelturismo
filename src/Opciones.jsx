@@ -6,8 +6,8 @@ import logo from "./assets/logo.png";
     {texto:"INICIO", 
       link:"/" 
     },
-    {texto:"ENCUADRE", 
-      link:"/encuadre" 
+    {texto:"RESEÑA", 
+      link:"/reseña" 
     },
      {texto:"ACTIVIDADES", 
       link:"/actividades" 
@@ -23,40 +23,36 @@ import logo from "./assets/logo.png";
 const Opciones = () => {
   const items = [
     {
-      label: "ENCUADRE",
-      bgColor: "#0D0716",
+      label: "RESEÑA",
+      bgColor: "#11D4BA",
       textColor: "#fff",
       links: [
-        { label: "XVIII Fiesta del Dia Mundial del Turismo", ariaLabel: "About Company", link:"/encuadre" },
-        { label: "Fundamentación", ariaLabel: "About Careers" , link:"/encuadre" },
-        { label: "Objetivos", ariaLabel: "About Careers" , link:"/encuadre" }
+        { label: "XVIII Fiesta del Dia Mundial del Turismo  Fundamentación y Objetivos", ariaLabel: "About Company", link:"/reseña" },
+
       ]
     },
     {
       label: "ACTIVIDADES", 
-      bgColor: "#170D27",
+      bgColor: "#00BFA6",
       textColor: "#fff",
       links: [
-        { label: "Actividades Propuestas", ariaLabel: "Featured Projects", link:"/actividades" },
-        { label: "Cronograma", ariaLabel: "Project Case Studies", link:"/actividades" }
+        { label: "Actividades Propuestas y Cronograma", ariaLabel: "Featured Projects", link:"/actividades" },
       ]
     },
     {
       label: "ORGANIZADORES",
-      bgColor: "#271E37", 
+      bgColor: "#0F0361", 
       textColor: "#fff",
       links: [
        {  label: "Comisión Organizadora", link: "/organizadores" },
-       {  label: "Comisión EXCURSIONES", link: "/excursiones" }
       ]
     },
       {
-      label: "ORGANIZADORES",
+      label: "ATRACTIVOS TURISTICOS",
       bgColor: "#271E37", 
       textColor: "#fff",
       links: [
-       {  label: "Comisión Organizadora", link: "/organizadores" },
-       {  label: "Comisión EXCURSIONES", link: "/excursiones" }
+       {  label: "Principales Atractivos Turísticos", link: "/excursiones" }
       ]
     }
   ];
@@ -68,7 +64,7 @@ const Opciones = () => {
       items={items}
       baseColor="#fff"
       menuColor="#000"
-      buttonBgColor="#111"
+      buttonBgColor="#00BFA6"
       buttonTextColor="#fff"
       ease="power3.out"
     />

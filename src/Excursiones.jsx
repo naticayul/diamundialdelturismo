@@ -70,6 +70,7 @@ const items = [
 ]
 return(
   <Masonry
+    mt-20
     items={items}
     ease="power3.out"
     duration={0.6}

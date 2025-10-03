@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {Link, Route, Routes} from 'react-router'
 import Inicio from './Inicio.jsx'
-import Encuadre from './Encuadre.jsx'
+import Reseña from './Reseña.jsx'
 import Actividades from './Actividades.jsx'
 import Organizadores from './Organizadores.jsx'
 import Excursiones from './Excursiones.jsx'
@@ -18,7 +18,7 @@ export default function App (){
       <Header />
       <Routes>
         <Route path='/' element ={<Inicio />}/>
-        <Route path='/encuadre' element ={<Encuadre />}/>
+        <Route path='/reseña' element ={<Reseña />}/>
         <Route path='/actividades' element ={<Actividades />}/>
         <Route path='/organizadores' element ={<Organizadores />}/>
         <Route path='/excursiones' element ={<Excursiones />}/>
